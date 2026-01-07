@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <title>Dynamic Greeting</title>
+</head>
+<body>
+<script>
+    const time = new Date().getHours();
+    if (time<12){
+        document.write("<h1>Good Morning</h1>");
+    }
+    else if(time<16){
+        document.write("<h1>Good Afternoon</h1>");
+    }
+    else{
+        document.write("<h1>Good Evening</h1>");
+    }
+</script>
+</body>
+</html>
